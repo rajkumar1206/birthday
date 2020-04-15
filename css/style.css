@@ -33,8 +33,9 @@ h3{
 
 .btn-floating{
     position: fixed !important;
-    top: 90vh;
-    left:80vw;
+    transform: translate(-100%, -100%);
+    bottom: 5px;
+    right: 5px;
 }
 
 .fix2{
@@ -72,4 +73,9 @@ i {
     display: inline-block;
     font-size: 20px;
     text-align: left;
+    padding: 5px;
+}
+
+.carousel.carousel-slider {
+    height: 100vh !important;
 }
