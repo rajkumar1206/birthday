@@ -50,5 +50,5 @@ deleteButton.addEventListener('click', (e) => {
     e.preventDefault();    
     userProfileList.splice(i, 1);
     localStorage.setItem('birthdayStorageList', JSON.stringify(userProfileList));
-    window.location.href = '/';
+    window.location.href = 'https://rajkumar1206.github.io/birthday/';
 })
