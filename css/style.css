@@ -79,3 +79,7 @@ i {
 .carousel.carousel-slider {
     height: 100vh !important;
 }
+
+.sidenav{
+    width: 100% !important;
+}
