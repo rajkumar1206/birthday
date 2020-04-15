@@ -130,6 +130,9 @@ form.addEventListener('submit', (e) => {
     if ( ul.querySelector('.dumb') ){
         ul.removeChild( ul.querySelector('.collection-item'));
     }
+  var elem = document.querySelector('.sidenav');
+    var instance = M.Sidenav.getInstance(elem);
+    instance.close();
 });
 
 function addEmpty(){
