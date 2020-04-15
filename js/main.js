@@ -146,6 +146,6 @@ addEmpty();
 
 ul.addEventListener('click', (e) => {
     if(e.target.closest('li').id){
-        window.location.href = '/edit.html?id='+e.target.closest('li').id;
+        window.location.href = './edit.html?id='+e.target.closest('li').id;
     }
 })
