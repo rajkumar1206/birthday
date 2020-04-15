@@ -34,8 +34,8 @@ h3{
 .btn-floating{
     position: fixed !important;
     transform: translate(-100%, -100%);
-    bottom: 5px;
-    right: 5px;
+    bottom: -15px;
+    right: -15px;
 }
 
 .fix2{
