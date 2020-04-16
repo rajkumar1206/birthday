@@ -13,6 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     var el = document.querySelectorAll('.tabs');
-    var instance = M.Tabs.init(el, {swipeable : true, duration:100});
+    var instance = M.Tabs.init(el, {swipeable : false , duration:100});
     // instance.close;
 });
